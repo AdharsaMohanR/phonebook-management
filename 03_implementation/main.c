@@ -46,7 +46,7 @@ void add_contact()
     printf("\n\tMob No. :-" );
     char mob[20];
     scanf("%s",mob);
-    printf(fp,"%s %s\n",name,mob);
+    fprintf(fp,"%s %s\n",name,mob);
     fclose(fp);
     printf("\n\tPRESS ANY KEY TO CONTINUE");
     getchar();
@@ -92,7 +92,7 @@ void delete_contact()
         {
             continue;
         }
-        printf(fp1,"%s %s\n",name1,mob);
+        fprintf(fp1,"%s %s\n",name1,mob);
     }
     fclose(fp);
     fclose(fp1);
