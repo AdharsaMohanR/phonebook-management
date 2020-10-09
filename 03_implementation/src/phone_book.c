@@ -1,8 +1,8 @@
 #include "phone_book.h"
 int password()
 {
- char pass[6],
  int x=10;
+ char pass[6],
  while(x!=0)
  {
    printf("\nInput the password");
