@@ -1,21 +1,15 @@
 #include "phone_book.h"
 int password()
 {
- int x=10,pass;
- while(x!=0)
+ char pword,pass;
+ printf("enter the password:");
+ scanf("%s",pword);
+ if(pword=="pass");
  {
-   printf("\nInput the password");
-   scanf("%d",&pass);
-   if(pass==1234)
-   {
-     printf("correct password");
-     x=0;
-   }
+  k=1;
   else
   {
- printf("wrong password");
+   k=0;
   }
-printf("\n");
-}
- return 0;
+ return k;
 }
