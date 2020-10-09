@@ -29,7 +29,7 @@ int main()
         view_all_contact();
         break;
     case 5:
-        exit();
+        exit(0);
     default:
         main();
     }
@@ -101,7 +101,7 @@ void delete_contact()
     while(fscanf(fp1,"%s %s",name1,mob)!=EOF)
     {
 
-        printf(fp,"%s %s\n",name1,mob);
+        fprintf(fp,"%s %s\n",name1,mob);
     }
     fclose(fp);
     fclose(fp1);
