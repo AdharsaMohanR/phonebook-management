@@ -7,7 +7,7 @@
 
 
 
-void test_password(void);
+void testpassword(void);
 
 
 
@@ -21,7 +21,7 @@ int main() {
   
  
   
-  CU_add_test(suite, "password", test_login);
+  CU_add_test(suite, "password", testpassword);
   
 
 
@@ -36,7 +36,7 @@ int main() {
   return 0;
 }
 
-void test_password(void){
+void testpassword(void){
  CU_ASSERT(1 == password("1234"));
  CU_ASSERT(1 == password("wrong"));//dummy fail case
 }
