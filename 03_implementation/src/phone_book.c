@@ -5,7 +5,7 @@ int password()
  char pword[10],pass;
  printf("enter the password:");
  scanf("%s",pword);
- if(pword=="pass");
+ if(pword=="pass")
  {
   k=1;
  }
