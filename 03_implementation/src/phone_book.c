@@ -1,13 +1,15 @@
 #include "phone_book.h"
 int password()
 {
- char pword,pass;
+ int k;
+ char pword[10],pass;
  printf("enter the password:");
  scanf("%s",pword);
  if(pword=="pass");
  {
   k=1;
-  else
+ }
+ else
   {
    k=0;
   }
