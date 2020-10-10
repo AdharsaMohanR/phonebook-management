@@ -3,7 +3,7 @@
 
 
 #include <phone_book.h>
-#define PROJECT_NAME    "phonebook-management"
+#define PROJECT_NAME "phonebook-management"
 
 
 
