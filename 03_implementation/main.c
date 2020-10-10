@@ -4,13 +4,13 @@
 int main()
 {
     system("cls");
-    password();
     printf("\t*****PHONE BOOK*****\n");
     printf("\t 1. Add Contact\n");
     printf("\t 2. Search Contact\n");
     printf("\t 3. Delete Contact\n");
     printf("\t 4. View All Contact\n");
     printf("\t 5. Exit\n");
+    password();
     printf("Enter Your Choice:-");
     int option;
     scanf("%d",&option);
